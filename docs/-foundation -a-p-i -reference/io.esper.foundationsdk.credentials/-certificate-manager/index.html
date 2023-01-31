@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>CertificateManager</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+<link href="../../../styles/esper-styles.css" rel="Stylesheet">
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>Foundation API Reference</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="Foundation API Reference::io.esper.foundationsdk.credentials/CertificateManager///PointingToDeclaration//165651098">
+  <div class="breadcrumbs"><a href="../../../index.html">Foundation API Reference</a><span class="delimiter">/</span><a href="../index.html">io.esper.foundationsdk.credentials</a><span class="delimiter">/</span><span class="current">CertificateManager</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Certificate</span><wbr></wbr><span><span>Manager</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">class </span><a href="index.html">CertificateManager</a><span class="token keyword"> extends </span><span data-unresolved-link="io.esper.foundationsdk.lib/AbstractManager///PointingToDeclaration/">AbstractManager</span><span class="token operator">&lt;</span><span data-unresolved-link="io.esper.foundationsdk.lib/AbstractManager///PointingToGenericParameters(0)/">Service</span><span class="token operator">&gt;</span></div><p class="paragraph">Provides methods for certificate management in android's system keystore, without invoking any UI elements or requiring any user intervention.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="2044877610%2FFunctions%2F165651098" anchor-label="getInstance" id="2044877610%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-instance.html"><span>get</span><wbr></wbr><span><span>Instance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2044877610%2FFunctions%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="index.html">CertificateManager</a> <a href="get-instance.html"><span class="token function">getInstance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">Returns an instance of <a href="index.html">CertificateManager</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1078840407%2FFunctions%2F165651098" anchor-label="installCertificates" id="-1078840407%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="install-certificates.html"><span>install</span><wbr></wbr><span><span>Certificates</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1078840407%2FFunctions%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace block"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="../../io.esper.foundationsdk.lib/-min-api-level/index.html"><span class="token annotation builtin">MinApiLevel</span></a><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">4</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">public </span><span class="token keyword"></span>void <a href="install-certificates.html"><span class="token function">installCertificates</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../-cert-usage-type/index.html">CertUsageType</a> usageType<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span>byte<span class="token operator">&gt;</span> pkcs12Data<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> password<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> alias</span></span><span class="token punctuation">)</span></div><div class="brief ">Allows user to install certs and private key in Ethernet keystore from PKCS12 encoded data.</div><div class="symbol monospace block"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="../../io.esper.foundationsdk.lib/-min-api-level/index.html"><span class="token annotation builtin">MinApiLevel</span></a><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">4</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">public </span><span class="token keyword"></span>void <a href="install-certificates.html"><span class="token function">installCertificates</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../-cert-usage-type/index.html">CertUsageType</a> usageType<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> pemUserCert<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> pemPrivKey<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> pemCaCert<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> alias</span></span><span class="token punctuation">)</span></div><div class="brief ">Allows user to install PEM encoded certs and private key in keystore determined by CertUsageType.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1749080693%2FFunctions%2F165651098" anchor-label="listInstalledCertificates" id="-1749080693%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="list-installed-certificates.html"><span>list</span><wbr></wbr><span>Installed</span><wbr></wbr><span><span>Certificates</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1749080693%2FFunctions%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace block"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="../../io.esper.foundationsdk.lib/-min-api-level/index.html"><span class="token annotation builtin">MinApiLevel</span></a><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">4</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/util/List.html">List</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token operator">&gt;</span> <a href="list-installed-certificates.html"><span class="token function">listInstalledCertificates</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../-cert-usage-type/index.html">CertUsageType</a> usageType<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="../-cert-type/index.html">CertType</a> certType</span></span><span class="token punctuation">)</span></div><div class="brief ">Returns the alias names of the installed certificates specified by the types passed.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1451466726%2FFunctions%2F165651098" anchor-label="uninstallCertificates" id="-1451466726%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="uninstall-certificates.html"><span>uninstall</span><wbr></wbr><span><span>Certificates</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1451466726%2FFunctions%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace block"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="../../io.esper.foundationsdk.lib/-min-api-level/index.html"><span class="token annotation builtin">MinApiLevel</span></a><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">4</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">public </span><span class="token keyword"></span>void <a href="uninstall-certificates.html"><span class="token function">uninstallCertificates</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="../-cert-usage-type/index.html">CertUsageType</a> usageType<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> alias</span></span><span class="token punctuation">)</span></div><div class="brief ">Uninstalls the certificates specified by the usage type and alias name.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright (C) 2023 Esper.IO Inc, All rights Reserved.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

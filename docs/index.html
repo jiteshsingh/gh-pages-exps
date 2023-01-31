@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Foundation API Reference</title>
+    <link href="images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="scripts/sourceset_dependencies.js" async="async"></script>
+<link href="styles/style.css" rel="Stylesheet">
+<link href="styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="styles/main.css" rel="Stylesheet">
+<link href="styles/prism.css" rel="Stylesheet">
+<link href="styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="images/logo-icon.svg">
+<link href="styles/esper-styles.css" rel="Stylesheet">
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="index.html">
+                    <span>Foundation API Reference</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="Foundation API Reference::////PointingToDeclaration//165651098">
+  <div class="breadcrumbs"></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Foundation</span></span> <span><span>API</span></span> <span><span>Reference</span></span></h1>
+    <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><p class="paragraph">Esper Foundation is the leading commercial Android build for x86 and ARM hardware. Whether you're starting with bare metal or already managing an Android device fleet in the hundreds or thousands, Foundation is ready to meet you at your scale and your needs.</p><p class="paragraph">Foundation SDK provides API to access the customizations and features available inside Esper Foundation. To use the SDK in your project, configure gradle as follows:</p><p class="paragraph">In the project level build.gradle, add the following:</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">allprojects {<br>    repositories {<br>        // ...<br>        maven {<br>            url &quot;https://artifact.esper.io/artifactory/esper-device-sdk/&quot;<br>        }<br>        // ...<br>    }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">In the module level build.gradle, add the following:</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">dependencies {<br>    // .....<br>    implementation &quot;io.esper.foundation:foundationsdk:5.1.0&quot;<br>    // ....<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+  <h2 class="">Packages</h2>
+  <div class="table"><a data-name="-1614038221%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.adb" id="-1614038221%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.adb/index.html">io.esper.foundationsdk.adb</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1614038221%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1312509413%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.alarm" id="1312509413%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.alarm/index.html">io.esper.foundationsdk.alarm</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1312509413%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="1312509413%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.alarm" id="1312509413%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">Provides date and time management features.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="-1927950222%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.backup" id="-1927950222%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.backup/index.html">io.esper.foundationsdk.backup</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1927950222%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="-1927950222%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.backup" id="-1927950222%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">Provides device and app data backup related features.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="1998308587%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.branding" id="1998308587%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.branding/index.html">io.esper.foundationsdk.branding</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1998308587%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="1998308587%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.branding" id="1998308587%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">Provides features to customize device branding, for example boot animation etc.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="-152213168%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.credentials" id="-152213168%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.credentials/index.html">io.esper.foundationsdk.credentials</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-152213168%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="-152213168%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.credentials" id="-152213168%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">Provides device-wide certificate and credentials management features.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="1897049799%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.ethernet" id="1897049799%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.ethernet/index.html">io.esper.foundationsdk.ethernet</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1897049799%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="1897049799%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.ethernet" id="1897049799%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">Provides ethernet stack management features, for example setting static IP, proxy etc.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="441430425%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.lib" id="441430425%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.lib/index.html">io.esper.foundationsdk.lib</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="441430425%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="441430425%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.lib" id="441430425%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">SDK specific classes, for example exceptions, metadata etc.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="290947259%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.runtimepermission" id="290947259%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.runtimepermission/index.html">io.esper.foundationsdk.runtimepermission</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="290947259%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1237536525%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.systemui" id="-1237536525%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.systemui/index.html">io.esper.foundationsdk.systemui</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1237536525%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="-1237536525%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.systemui" id="-1237536525%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">Provides System UI Customization related features.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="-162987048%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.usb" id="-162987048%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.usb/index.html">io.esper.foundationsdk.usb</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-162987048%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="-162987048%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.usb" id="-162987048%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">Provides features for managing USB stack, like USB access permissions etc.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="1948513157%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.wifi" id="1948513157%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+    <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="-foundation -a-p-i -reference/io.esper.foundationsdk.wifi/index.html">io.esper.foundationsdk.wifi</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1948513157%2FPackages%2F165651098"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right"></div>
+        </div>
+        <div><span class="brief-comment"><a data-name="1948513157%2FPackages%2F165651098" anchor-label="io.esper.foundationsdk.wifi" id="1948513157%2FPackages%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+            <p class="paragraph">Provides features for managing WIFI, for example adding networks etc.</p>
+          </span></div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright (C) 2023 Esper.IO Inc, All rights Reserved.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

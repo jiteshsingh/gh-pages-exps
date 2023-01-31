@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>NavigationBarManager</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+<link href="../../../styles/esper-styles.css" rel="Stylesheet">
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>Foundation API Reference</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="Foundation API Reference::io.esper.foundationsdk.systemui/NavigationBarManager///PointingToDeclaration//165651098">
+  <div class="breadcrumbs"><a href="../../../index.html">Foundation API Reference</a><span class="delimiter">/</span><a href="../index.html">io.esper.foundationsdk.systemui</a><span class="delimiter">/</span><span class="current">NavigationBarManager</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Navigation</span><wbr></wbr><span>Bar</span><wbr></wbr><span><span>Manager</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://docs.oracle.com/javase/8/docs/api/javax/annotation/ParametersAreNonnullByDefault.html"><span class="token annotation builtin">ParametersAreNonnullByDefault</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div><span class="token keyword">public </span><span class="token keyword">class </span><a href="index.html">NavigationBarManager</a><span class="token keyword"> extends </span><span data-unresolved-link="io.esper.foundationsdk.lib/AbstractManager///PointingToDeclaration/">AbstractManager</span><span class="token operator">&lt;</span><span data-unresolved-link="io.esper.foundationsdk.lib/AbstractManager///PointingToGenericParameters(0)/">Service</span><span class="token operator">&gt;</span></div><p class="paragraph">NavigationBarManager allows you to control the visibility of elements in NavigationBar.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-935801060%2FProperties%2F165651098" anchor-label="DISABLE_BACK" id="-935801060%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-935801060%2FProperties%2F165651098"><span><span>DISABLE_BACK</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-935801060%2FProperties%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><a data-name="-935801060%2FProperties%2F165651098" anchor-label="DISABLE_BACK" id="-935801060%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword">static </span>int <a href="index.html#-935801060%2FProperties%2F165651098">DISABLE_BACK</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="496584228%2FProperties%2F165651098" anchor-label="DISABLE_HOME" id="496584228%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#496584228%2FProperties%2F165651098"><span><span>DISABLE_HOME</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="496584228%2FProperties%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><a data-name="496584228%2FProperties%2F165651098" anchor-label="DISABLE_HOME" id="496584228%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword">static </span>int <a href="index.html#496584228%2FProperties%2F165651098">DISABLE_HOME</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1810059761%2FProperties%2F165651098" anchor-label="DISABLE_NAVIGATION" id="-1810059761%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1810059761%2FProperties%2F165651098"><span><span>DISABLE_NAVIGATION</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1810059761%2FProperties%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><a data-name="-1810059761%2FProperties%2F165651098" anchor-label="DISABLE_NAVIGATION" id="-1810059761%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword">static </span>int <a href="index.html#-1810059761%2FProperties%2F165651098">DISABLE_NAVIGATION</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1321841131%2FProperties%2F165651098" anchor-label="DISABLE_NONE" id="1321841131%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1321841131%2FProperties%2F165651098"><span><span>DISABLE_NONE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1321841131%2FProperties%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><a data-name="1321841131%2FProperties%2F165651098" anchor-label="DISABLE_NONE" id="1321841131%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword">static </span>int <a href="index.html#1321841131%2FProperties%2F165651098">DISABLE_NONE</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1928780456%2FProperties%2F165651098" anchor-label="DISABLE_RECENT" id="1928780456%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1928780456%2FProperties%2F165651098"><span><span>DISABLE_RECENT</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1928780456%2FProperties%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><a data-name="1928780456%2FProperties%2F165651098" anchor-label="DISABLE_RECENT" id="1928780456%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword">static </span>int <a href="index.html#1928780456%2FProperties%2F165651098">DISABLE_RECENT</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1857082182%2FProperties%2F165651098" anchor-label="TAG" id="1857082182%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1857082182%2FProperties%2F165651098"><span><span>TAG</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1857082182%2FProperties%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><a data-name="1857082182%2FProperties%2F165651098" anchor-label="TAG" id="1857082182%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword">static </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#1857082182%2FProperties%2F165651098">TAG</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-1393567781%2FFunctions%2F165651098" anchor-label="disable" id="-1393567781%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="disable.html"><span><span>disable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1393567781%2FFunctions%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace block"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="../../io.esper.foundationsdk.lib/-min-api-level/index.html"><span class="token annotation builtin">MinApiLevel</span></a><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">4</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">public </span><span class="token keyword"></span>void <a href="disable.html"><span class="token function">disable</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span>int what</span></span><span class="token punctuation">)</span></div><div class="brief ">Disable some elements in navigation bar.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1756451118%2FFunctions%2F165651098" anchor-label="getInstance" id="-1756451118%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-instance.html"><span>get</span><wbr></wbr><span><span>Instance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1756451118%2FFunctions%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">static </span><a href="index.html">NavigationBarManager</a> <a href="get-instance.html"><span class="token function">getInstance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a> context</span></span><span class="token punctuation">)</span></div><div class="brief ">Get instance of Esper's NavigationBarManager.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-698613025%2FFunctions%2F165651098" anchor-label="isDisabled" id="-698613025%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="is-disabled.html"><span>is</span><wbr></wbr><span><span>Disabled</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-698613025%2FFunctions%2F165651098"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace block"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="../../io.esper.foundationsdk.lib/-min-api-level/index.html"><span class="token annotation builtin">MinApiLevel</span></a><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">4</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword">public </span><span class="token keyword"></span>boolean <a href="is-disabled.html"><span class="token function">isDisabled</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span>int what</span></span><span class="token punctuation">)</span></div><div class="brief ">Returns the status of elements in navigation bar.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright (C) 2023 Esper.IO Inc, All rights Reserved.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
